@@ -1,0 +1,40 @@
+---
+title: "HW1ExcercisE_1_Introductions"
+author: "Zahida"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Introduction
+
+![**Department of Biological Sciences**](http://www.auburn.edu/cosam/news/articles/2018/04/images/MJH_1689.jpg)
+
+ > "All religions, arts and sciences are branches of same tree" **Albert Einstein** 
+
+`r emo::ji('happy')` `r emo::ji('smile')` `r emo::ji('love')`
+
+![Saturday Night Live](https://media.giphy.com/media/v2dRH3IcHtADS/giphy.gif) 
+
+ a smaller one... <img src='https://media.giphy.com/media/v2dRH3IcHtADS/giphy.gif' width='200' height='200' />
+
+
+
+
+
+## **My class Schedule Fall 20**
+Very tough for me ,
+
+
+	
+**INTRODUCTION TO COMPUTATIONAL BIOLOGY**  	 *MWF4-5:15pm*     
+ **R programming for data science**        	**MWF2-2:50pm**
+
+
+
+[link:short_video](https://www.youtube.com/watch?v=HQx5Be9g16U)
+
+
+
