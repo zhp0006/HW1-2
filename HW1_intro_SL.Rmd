@@ -1,0 +1,55 @@
+---
+title: "Homework1_2"
+author: "Sunny Lee"
+date: "9/7/2020"
+output: html_document
+bibliography: biblio.bib
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+##Introduction
+#1
+![Aubur university College of Education](http://graduate.auburn.edu/wp-content/uploads/2016/09/aucollegeofed.jpg)
+
+#2 
+@article{beyth2008statistical,
+  title={STATISTICAL COGNITION: TOWARDS EVIDENCE-BASE PRACTICE IN STATISTICS AND STATISTICS EDUCATION.},
+  author={Beyth-Marom, Ruth and Fidler, Fiona and Cumming, Geoff},
+  journal={Statistics Education Research Journal},
+  volume={7},
+  number={2},
+  year={2008}
+}
+
+"An investment in knowledge pays the best interest" **Benjamin Franklin**
+
+#3
+# install.packages("devtools")
+devtools::install_github("hadley/emo")
+
+`r emo::ji("smile")`
+`r emo::ji("face")`
+`r emo::ji("love")`
+
+#4
+![SUMMER](https://media.giphy.com/media/jqMYaMXGqPMIg/giphy.gif)
+![monkey](https://media.giphy.com/media/RT7aITJt2BgUo/giphy.gif)
+
+#5
+```{r table2, echo=FALSE, message=FALSE, results='asis', warnings=FALSE}
+tabl
+
+| Class     | Time            |
+|-----------|-----------------|
+| STAT7600  | 3:30-4:45 (TR)  |
+| STAT 6110 | 2:00-3:15 (TR)  |
+| STAT 6210 | 2:00-2:50 (MWF) |
+
+  cat(tabl)
+```
+#6 
+[link:short_video](https://www.youtube.com/watch?v=lcJ090g-ywA)
+
