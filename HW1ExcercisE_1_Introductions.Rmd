@@ -37,4 +37,25 @@ Very tough for me ,
 [link:short_video](https://www.youtube.com/watch?v=HQx5Be9g16U)
 
 
+## Introduction - Noah Mecikalski
+
+![**Auburn University Marching Band**](http://www.auburn.edu/student_info/auband/photogallery/albums/2010nationalchampionship/normal__PJS2584-289.jpg)
+
+> "Something" **Someone**
+
+![Auburn Football never fails to give me a heart attack](https://media.giphy.com/media/SvWnGXtzvpiokYUXFR/giphy.gif)
+
+
+### **Class Schedule Fall 2020**
+
+
+|              Class             |     Time      |
+|:------------------------------:|:-------------:|
+| Engineering Physics II         | MWF 10-10:50am|
+| Operations Planning Control    | MWF 11-11:50am|
+| R Programming for Data Science | MWF 2-2:50pm  |
+| Inter. Stat. for Data Science  | TR  9:30-11am |
+| Stat Quality Design and Control| TR  2-3:15pm  |
+
+
 
