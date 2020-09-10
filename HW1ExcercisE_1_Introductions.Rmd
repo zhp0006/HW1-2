@@ -41,10 +41,17 @@ Very tough for me ,
 
 ![**Auburn University Marching Band**](http://www.auburn.edu/student_info/auband/photogallery/albums/2010nationalchampionship/normal__PJS2584-289.jpg)
 
-> "Something" **Someone**
+> "All models are wrong, but some are useful" **George E.P. Box**
 
 ![Auburn Football never fails to give me a heart attack](https://media.giphy.com/media/SvWnGXtzvpiokYUXFR/giphy.gif)
 
+<img src='https://media.giphy.com/media/hqgAmGd19MuTFecj29/giphy.gif' width='200' height='200' />
+
+`r emo::ji('smile')` `r emo::ji('happy')` `r emo::ji('sad')`
+
+My favorite part of any game day: pregame!
+
+<iframe width='560' height='315' src='https://www.youtube.com/embed/QQAfsUVW7oU' frameborder='0' allowfullscreen></iframe> 
 
 ### **Class Schedule Fall 2020**
 
