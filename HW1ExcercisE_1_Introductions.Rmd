@@ -27,6 +27,10 @@ knitr::opts_chunk$set(echo = TRUE)
 ## **My class Schedule Fall 20**
 Very tough for me ,
 
+|              Class             |     Time      |
+|:------------------------------:|:-------------:|
+|INTRO TO COMP.    BIOLOGY       | MWF 10-10:50am|
+| R Programming for Data Science | MWF 2-2:50pm  |
 
 	
 **INTRODUCTION TO COMPUTATIONAL BIOLOGY**  	 *MWF4-5:15pm*     
