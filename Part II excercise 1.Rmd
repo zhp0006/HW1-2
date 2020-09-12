@@ -1,0 +1,79 @@
+---
+title: "Part II excercise 1"
+author: "Zahida"
+date: "9/11/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# **R Markdown Cache Example**
+
+This example shows that by using Cache= True while doing calculations for a specific object e.g X(in this case), changing the object value changes the results if we use the "dependson"function otherwise selecting cache as T will store the assigned value of the object and everytime this will give a misleading value
+
+
+```{r X, cache=TRUE}
+X = 10
+```
+
+
+```{r, cache=TRUE}
+(Y =  2*X)
+```
+
+```{r, cache = TRUE, dependson = "X"}
+(Y = 2*X)
+```
+# **Standard Normal Distribution simulating 100 Random samples**
+
+```{r,Simulation}
+x<-rnorm(100)
+x
+
+
+
+
+```
+# **Median**
+
+```{r,Computemedianx }
+median(x)
+```
+# **Mean**
+
+```{r, mean}
+mean(x)
+
+```
+
+# **Variance**
+```{r, variance}
+var(x)
+```
+
+# **Histogram**
+```{r, graph}
+hist(x)
+```
+# **Results**
+These results are different from expected results because this is random distribution of random samples.
+
+```{r}
+```
+ $$y = X\mathbf{\beta} + \epsilon$$
+
+$$\mathbf{A} := \left[a_{i,j}\right]_{i,j = 1, \ldots, p}$$
+
+<font color ="blue">“Keep calm and carry on programming" </font>
+
+<button data-toggle="collapse" data-target="#demo">See more</button>
+<div id="demo" class="collapse">
+Not much more to see
+</div>
+
+<div class="alert alert-success">
+  <strong>Forza Roma:</strong> sempre
+</div>
+
