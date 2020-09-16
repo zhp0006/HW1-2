@@ -1,0 +1,118 @@
+---
+title: "Exercise 1: R Markdown Syntax"
+output: html_document
+bibliography: cite.bibtex
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Introduction
+
+### Your Name
+Hongqian Sun
+####  Picture with caption
+
+```{r, fig.align="center", fig.width=6, fig.height=6, fig.cap="Figure: Interest Rate"}
+year <- c(2000 ,   2001  ,  2002  ,  2003 ,   2004)
+rate <- c(9.34 ,   8.50  ,  7.62  ,  6.93  ,  6.60)
+plot(year,rate)
+```
+
+
+#### Quote
+
+> "I thoroughly disapprove of duels. If a man should challenge me,
+  I would take him kindly and forgivingly by the hand and lead him
+  to a quiet place and kill him."
+> --- @knitr2015
+
+
+#### Emojis
+
+```{r}
+# devtools::install_github("hadley/emo")
+```
+
+`r emo::ji("smile")`, `r emo::ji("sad")`, `r emo::ji("face")`
+
+
+#### Giphy
+
+![](http://i.imgur.com/OUkLi.gif)
+
+<img src="http://i.imgur.com/OUkLi.gif" width="40" height="40" />
+
+#### Table
+
+```{r}
+library(DT)
+CLASS = c('Class A', 'Class B', 'Class C')
+TIME = c('Monday', 'Monday', 'Sunday')
+
+d = data.frame(CLASS, TIME)
+datatable(d)
+
+```
+
+
+#### Video
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ENw8znw2Vo4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+## R Markdwon Syntax
+
+### Simulation
+
+```{r}
+x = rnorm(100)
+median(x)
+mean(x)
+var(x)
+```
+It is different, and even large different. But no superise,  the observation number is too small.
+
+### Histogram
+
+
+```{r, fig.align="center", fig.width=6, fig.height=6, fig.cap="Figure: Histogram"}
+hist(x)
+
+```
+
+### Math
+
+
+$$ y =  X \beta + \epsilon   $$
+
+### Inline math
+
+
+
+$\text{A}: = [a_{i,j}]_{i,j = 1, \dots, p}$ 
+
+
+
+### Blue Text
+
+<font color="blue"> "Keep calm and carry on programming"</font>
+
+### Button
+
+<button data-toggle="collapse" data-target="#demo">See more</button>
+<div id="demo" class="collapse">
+Not much more to see
+</div>
+
+### color box
+
+<div class="alert alert-success">
+  <strong> Forza Roma : </strong> sempre
+</div>
+
+## Reference
+
+
